@@ -1,0 +1,274 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.big
+{
+    height: 200px;
+    width: auto;
+    background-color: #FBFBFB;
+}
+.logo
+{
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    background-image: url(tylog1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    
+}
+.nav
+{
+    height: 50px;
+    width: 970px;
+    position: absolute;
+    left: 370px;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-weight: bolder;
+    font-size: 14px;
+    position: fixed;
+    
+}
+.nav>div:hover
+{
+    color: #FF9800;
+
+}
+.text
+{
+    position: absolute;
+    left: 182px;
+    top: 150px;
+    font-weight: bold;
+    
+}
+.extra
+{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 130px;
+    right: 180px;
+    background-image: url(nav1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mid
+{
+    height: 1300px;
+    width: 1100px;
+    position: relative;
+    
+}
+.loc1
+{
+    height: 600px;
+    width: 1100px;
+    position: absolute;
+    left: 180px;
+    top: 30px;
+    background-image: url(location1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.loc2
+{
+    height: 700px;
+    width: 1100px;
+    position: absolute;
+    left: 180px;
+    top: 550px;
+    background-image: url(location2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer
+{
+    height: 550px;
+    width: auto;
+    background-color:#C0C0C0;
+    position: relative;
+}
+.privacy
+{
+    height: 80px;
+    width: 150px;
+    background-image: url(privacy.png);
+    background-size: contain;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.address
+{
+    height: 300px;
+    width: 500px;
+    background-image: url(address1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    
+
+}
+#text
+{
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    top: 50px;
+    left: 980px;
+    padding-left: 20px;
+    outline: none;
+}
+#email
+{
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    top: 100px;
+    left: 980px;
+    padding-left: 20px;
+    outline: none;
+}
+#subject
+{
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    top: 150px;
+    left: 980px;
+    padding-left: 20px;
+    outline: none;
+}
+textarea
+{
+    width: 320px;
+    position: absolute;
+    top: 200px;
+    left: 980px;
+    color: gray;
+    padding-left: 20px;
+    padding-top: 15px;
+    outline: none;
+}
+.checkbox
+{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    top: 380px;
+    left: 980px;
+    background-color: white;
+}
+#box
+{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 13px;
+  top: 15px;
+}
+.robot
+{
+    height: 40px;
+    width: 240px;
+    background-image: url(robot1.png);
+    background-size: contain;
+    position: absolute;
+    left: 45px;
+    top: 12px;
+
+}
+button
+{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 1150px;
+    padding: 7px 20px;
+    background-color:#3F5378;
+    color: white;
+    font-weight: 40px;
+
+}
+.copyright
+{
+    height: 50px;
+    width: 300px;
+    background-image: url(copyright.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 500px;
+    left: 600px;
+
+}
+.facebook
+{
+    height: 40px;
+    width:  40px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    font-size: 25px;
+    padding: 7px 13px;
+    background: none;
+    text-decoration: none;
+    
+}
+.linkedin
+{
+    height: 40px;
+    width:  40px;
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    font-size: 25px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+.facebook:hover
+{
+    background-color: #3B5998;
+}
+.linkedin:hover
+{
+    background-color: #0077B5;
+}
+a:link
+{
+  color: black;  
+}
+a:active
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
+.facebook
+{
+    color: gray;
+}
+.linkedin
+{
+    color: gray;
+}
+a
+{
+    text-decoration: none;
+}

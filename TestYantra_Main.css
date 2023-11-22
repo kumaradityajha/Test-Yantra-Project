@@ -1,0 +1,380 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.big
+{
+    height: 700px;
+    width: auto;
+    background-image: url(ty4.png);
+    background-size: cover;
+    animation-name: main;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+@keyframes main {
+    0%{background-image: url(ty4.png );}
+    25%{background-image: url(ty1.png);}
+    50%{background-image: url(ty5.png);}
+    75%{background-image: url(ty2.png);}
+    100%{background-image: url(ty3.png);}
+    
+}
+.logo
+{
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    background-image: url(tylog1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    
+}
+.main_text
+{
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    background-image: url(text1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.arrow1
+{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    font-weight: 100;
+
+}
+.arrow2
+{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    font-weight: 100;
+
+}
+.nav
+{
+    height: 50px;
+    width: 970px;
+    position: absolute;
+    left: 370px;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-weight: bolder;
+    font-size: 14px;
+    position: fixed;
+    text-decoration: none;
+    
+}
+.nav>div:hover
+{
+    color: #FF9800;
+
+}
+a
+{
+    text-decoration: none;
+}
+.mid_nav
+{
+  height: 250px;
+  width: auto;
+  background-color: #FBFBFB;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.mid_border
+{
+  height: 200px;
+  width: 1130px;
+  position: absolute;
+  margin: 50px auto;
+  background-image: url(navpic.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bottom_nav
+{
+  height: 200px;
+  width: auto;
+  background-color: #F5F5F5;
+  position: relative;
+  display: flex;
+  
+}
+.c1
+{
+    height: 200px;
+    width: 25%;
+    border: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    
+
+}
+.s1
+{
+    height: 150px;
+    width: auto;
+    padding: 50px 100px;
+    
+}
+.t1
+{
+    height: 50px;
+    width: auto;
+    padding-left: 65px;
+    font-weight: bolder;
+    
+}
+.s2
+{
+    height: 150px;
+    width: auto;
+    padding: 50px 110px;
+    
+}
+.t2
+{
+    height: 50px;
+    width: auto;
+    padding-left: 100px;
+    font-weight: bolder;
+    
+}
+.s3
+{
+    height: 150px;
+    width: auto;
+    padding: 60px 100px;
+    
+}
+.t3
+{
+    height: 50px;
+    width: auto;
+    padding-left: 65px;
+    font-weight: bolder;
+    
+}
+.s4
+{
+    height: 150px;
+    width: auto;
+    padding: 50px 100px;
+    
+}
+.t4
+{
+    height: 50px;
+    width: auto;
+    padding-left: 130px;
+    font-weight: bolder;
+    
+}
+footer
+{
+    height: 550px;
+    width: auto;
+    background-color:#C0C0C0;
+    position: relative;
+}
+.privacy
+{
+    height: 80px;
+    width: 150px;
+    background-image: url(privacy.png);
+    background-size: contain;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.address
+{
+    height: 300px;
+    width: 500px;
+    background-image: url(address1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    
+
+}
+#text
+{
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    top: 50px;
+    left: 980px;
+    padding-left: 20px;
+    outline: none;
+}
+#email
+{
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    top: 100px;
+    left: 980px;
+    padding-left: 20px;
+    outline: none;
+}
+#subject
+{
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    top: 150px;
+    left: 980px;
+    padding-left: 20px;
+    outline: none;
+}
+textarea
+{
+    width: 320px;
+    position: absolute;
+    top: 200px;
+    left: 980px;
+    color: gray;
+    padding-left: 20px;
+    padding-top: 15px;
+    outline: none;
+}
+.checkbox
+{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    top: 380px;
+    left: 980px;
+    background-color: white;
+}
+#box
+{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 13px;
+  top: 15px;
+}
+.robot
+{
+    height: 40px;
+    width: 240px;
+    background-image: url(robot1.png);
+    background-size: contain;
+    position: absolute;
+    left: 45px;
+    top: 12px;
+
+}
+button
+{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 1150px;
+    padding: 7px 20px;
+    background-color:#3F5378;
+    color: white;
+    font-weight: 40px;
+
+}
+.copyright
+{
+    height: 50px;
+    width: 300px;
+    background-image: url(copyright.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 500px;
+    left: 600px;
+
+}
+.facebook
+{
+    height: 40px;
+    width:  40px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    font-size: 25px;
+    padding: 7px 13px;
+    background: none;
+    text-decoration: none;
+    
+}
+.linkedin
+{
+    height: 40px;
+    width:  40px;
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    font-size: 25px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+.facebook:hover
+{
+    background-color: #3B5998;
+}
+.linkedin:hover
+{
+    background-color: #0077B5;
+}
+a:link
+{
+  color: black;  
+}
+a:active
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
+.facebook
+{
+    color: gray;
+}
+.linkedin
+{
+    color: gray;
+}
